@@ -49,7 +49,7 @@ return (1);
 if (!*++p)
 return (unset_alias(infox, strg));
 unset_alias(infox, strs);
-return (add_node_end(&(infox->alias), strs, 0) == NULL);
+return (add_node_end(&(infox->alias), strg, 0) == NULL);
 }
 
 /**
